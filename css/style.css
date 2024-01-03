@@ -1,0 +1,8 @@
+.q-nav-bar {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+}
+.q-nav-bar-item {
+  display: inline-block;
+}
