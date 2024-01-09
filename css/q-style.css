@@ -1,1 +1,39 @@
-
+:root {
+  --primary: #0d6efd;
+}
+.q-nav-container {
+}
+.q-products-row {
+}
+.q-brands-bar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+}
+.q-brands-bar > li {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.q-brands-bar > li.q-category {
+  flex-basis: 500px;
+}
+.q-brands-bar > li > a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+.q-brands-bar > li.q-category > a {
+  text-align: left;
+  width: 50%;
+}
+.q-brands-bar > li.q-brand > a {
+  text-align: center;
+}
+.q-brands-bar > li.q-brand > a:hover {
+  background-color: #fff;
+  color: var(--primary);
+  border-radius: 3px;
+}
+.q-products-grid {
+}
