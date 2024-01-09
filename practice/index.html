@@ -5,13 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      [data-type="primary"] {
+      /* Our link is hovered */
+      a:hover {
+        outline: 1px dotted green;
+      }
+
+      /* Sets all even paragraphs to have a different background */
+      p:nth-child(even) {
+        background: floralwhite;
+      }
+      .my-element::before {
+        content: "Prefix - ";
+      }
+      p ~ ul {
         color: red;
+      }
+      [target] {
+        color: blue;
       }
     </style>
   </head>
   <body>
-    <p data-type="primary">chu thuong</p>
-    <p data-type="Primary">chu hoa</p>
+    <div></div>
+    <p target="123">target</p>
+    <ul>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ul>
   </body>
 </html>
