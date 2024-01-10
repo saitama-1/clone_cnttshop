@@ -1,8 +1,9 @@
-.q-nav-bar {
+.wrapper {
+  /* width: 500px; */
   display: flex;
-  justify-content: end;
-  margin: 0;
+  flex-wrap: wrap;
 }
-.q-nav-bar-item {
-  display: inline-block;
+.wrapper > div {
+  flex: 1 1 150px;
+  border: 1px solid black;
 }

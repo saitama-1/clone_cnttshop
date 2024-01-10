@@ -36,4 +36,8 @@
   border-radius: 3px;
 }
 .q-products-grid {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+  padding-left: 0;
+  column-gap: 20px;
 }

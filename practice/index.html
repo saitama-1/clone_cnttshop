@@ -3,35 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Document</title>
-    <style>
-      /* Our link is hovered */
-      a:hover {
-        outline: 1px dotted green;
-      }
-
-      /* Sets all even paragraphs to have a different background */
-      p:nth-child(even) {
-        background: floralwhite;
-      }
-      .my-element::before {
-        content: "Prefix - ";
-      }
-      p ~ ul {
-        color: red;
-      }
-      [target] {
-        color: blue;
-      }
-    </style>
   </head>
   <body>
-    <div></div>
-    <p target="123">target</p>
-    <ul>
-      <li>item</li>
-      <li>item</li>
-      <li>item</li>
-    </ul>
+    <div class="wrapper">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>Four</div>
+      <div>Five</div>
+    </div>
   </body>
 </html>
